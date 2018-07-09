@@ -981,7 +981,7 @@ main(int argc, char *argv[])
     case OP_SHOW_VERSION:
         /* Print the licensing terms and the extended version info. */
         app_printf("%s\n", msg_license);
-        app_printf("Using libpng version %s and zlib version %s\n",
+        app_printf("Using libpng version %s, zlib version %s and Visual Studio 2017\n",
                    png_get_libpng_ver(NULL), zlibVersion());
         break;
     default:
